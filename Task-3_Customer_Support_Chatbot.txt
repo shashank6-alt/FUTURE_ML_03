@@ -1,0 +1,79 @@
+🤖 Task 3 – Customer Support Chatbot
+Internship Domain: Machine Learning / AI
+Intern: Akshay Posina
+Organization: Future Interns
+💬 Project Overview
+
+This project focuses on building an AI-powered Customer Support Chatbot using Google Dialogflow CX (Essentials).
+The chatbot can understand user queries, answer common FAQs, and simulate real customer support interactions such as order tracking, payment help, and delivery information.
+
+🧠 Tools & Technologies
+
+Dialogflow Essentials (Google Cloud) – For intent management and conversation flow
+
+NLP (Intent Detection & Entity Recognition) – Built-in Dialogflow AI
+
+Web Interface – For testing and interaction simulation
+
+⚙️ Workflow Steps
+
+Agent Creation:
+
+Created a new agent named Customer Support Bot in Dialogflow Essentials.
+
+Configured language (English) and time zone (Asia/Kolkata).
+
+Greeting Intent:
+
+Default Welcome Intent responds with:
+
+“Hello! 👋 Welcome to Customer Support. How can I assist you today?”
+
+FAQ Intents Created:
+
+Order Status – Provides tracking and delivery information.
+
+Return Policy – Explains return and refund procedure.
+
+Payment Issue – Handles failed or pending payment queries.
+
+Delivery Time – Estimates delivery duration based on location.
+
+Contact Support – Connects users to a human agent.
+
+Fallback Intent:
+
+Customized response for unknown queries:
+
+“Oops! 😅 I didn’t quite understand that. Could you please rephrase your question?”
+
+Testing & Validation:
+
+Verified conversation flows using Dialogflow’s “Try it now” panel.
+
+Tested multiple scenarios for correct intent matching and fallbacks.
+
+📊 Key Features & Outcomes
+
+✔ AI-driven intent detection
+✔ FAQ-based responses for common support queries
+✔ Graceful fallback handling
+✔ Simple to integrate with web or Telegram (optional)
+
+🧾 Learning Outcomes
+
+Built a real-world chatbot using Dialogflow.
+
+Learned how Natural Language Understanding maps user input to intents.
+
+Practiced conversation design for customer support scenarios.
+
+📁 Files Included
+File Name	Description
+—	Project created in Dialogflow Console (linked to agent ID)
+Task-3_Customer_Support_Chatbot.txt	Summary of Task 3 implementation
+
+✅ Task 3 Completed Successfully
+Chatbot Name: Customer Support Bot
+Platform: Dialogflow Essentials
+Submitted By: Akshay Posina
